@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import BookList from './components/BookList'
 import ThemeContextProvider from './contexts/ThemeContetx'
 import ThemeToggle from './components/ThemeToggle';
+import ReactjsOrg from './components/ReactjsOrg'
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <BookList />
         <ThemeToggle />
       </ThemeContextProvider>
+
+      < ReactjsOrg />
     </div>
   );
 }
